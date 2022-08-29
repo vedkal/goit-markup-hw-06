@@ -1,0 +1,1884 @@
+body {
+    font-family: Roboto, Raleway;
+}
+
+
+/* WebStudio */
+
+.social-link {
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;   
+    background: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.social-link .link:hover,
+.social-link .link:focus {
+    color: orange;
+}
+
+.social-link .link:active {
+    color: red;
+}
+
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    color: #2196F3;
+}
+
+.agencia {
+    position: absolute;
+width: 53px;
+height: 16px;
+left: 453px;
+top: 32px;
+}
+
+.portfolio {
+    position: absolute;
+left: 552px;
+right: 990px;
+top: 32px;
+bottom: 0%;
+}
+
+.kontakt {
+    position: absolute;
+width: 51px;
+height: 16px;
+left: 656px;
+top: 32px;
+}
+
+.list-link {
+position: relative;
+text-decoration: none;
+transition: color 250ms linear;
+}
+
+.list-link:hover {
+    color: #2196F3;
+}
+
+.list-link::after {
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    margin-top: 25px;
+    margin-left: 0px;
+    background: #2196F3;
+border-radius: 2px;
+content: "";
+}
+
+.list-link:focus::after,
+.list-link:hover::after {
+    width: 100%;
+}
+
+
+
+.container-poshta {
+    position: absolute;
+width: 161px;
+height: 16px;
+left: 1052px;
+top: 32px;
+}
+
+.poshta {
+    display: flex;
+    width: 161px;
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 1052px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+gap: 10px;
+}
+
+.mail {
+    fill: gray;
+}
+
+.mail:hover  {
+    fill: #2196F3;
+}
+
+.telefon {
+    display: flex;
+    width: 130px;
+    height: 16px;
+    margin-top: -18px;
+    margin-left: 1243px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+gap: 10px;
+}
+
+.telefon:hover {
+    fill: #2196F3; 
+}
+
+.list-link1 {
+    color: #757575;
+}
+ 
+.list-link1:hover {
+    color: #2196F3;
+}
+
+/* Zamów usługe */
+
+.controls {
+    max-width: 1600px; 
+    max-height: 600px;
+    background-image: url(../img/image\ \(13\).jpeg); 
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;   
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}  
+
+.ROZWIĄZANIA {
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 200px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.Zamów-usługe {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;   
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+/* LOREM IPSUM */
+
+.lorem {
+    display: flex;
+    margin-top: 774px;
+    margin-left: 180px;
+    margin-right: 215px;
+    font-weight: 1170;
+    font-size: 251;
+    gap: 30px;
+}
+
+.konteiner-z-obrazami {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.item {
+    list-style: none;
+}
+
+.Lorem-ipsum {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.dolor {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* czym-się-zajmujemy */
+
+.czym-się-zajmujemy {
+    margin-left: 200px;
+    margin-top: 1211px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 65px;
+color: #212121;
+}
+
+.container-czym-się-zajmujemy {
+    box-sizing: border-box;
+}
+
+.zdięczie {
+    display: flex;
+    width: 1170px;
+    height: 294px;
+    margin-top: 50px;
+    margin-left: 215px;
+    gap: 30px;
+}
+
+.thumb {
+    position: relative;
+}
+
+.thumb > .label {
+    position: absolute;
+    top: 211px;
+    right: 0px;
+    width: 370px;
+    height: 70px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 70px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+
+
+/* Nasz zespół */
+
+.zespół {
+    position: absolute;
+    width: 1600px;
+    height: 708px;
+    left: 0px;
+    top: 1599px;
+    background-color: #F5F4FA;
+}
+
+.komanda {
+    background-color: #FFFFFF;
+}
+
+.nasz-zespół {
+    position: absolute;
+    width: 215px;
+    height: 42px;
+    left: 695px;
+    top: 94px;
+
+}
+
+.nasza-komanda {
+    display: flex;
+    gap: 30px;
+    margin-top: 186px;
+    margin-right: 215px;
+    margin-bottom: 94px;
+    margin-left: 190px;
+    list-style: none;
+}
+
+.john-doe {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}  
+
+  
+  .container-Produkt-Designer {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 520px;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+.container-Frontend-Developer {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 16px;
+    margin-left: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-Marketing {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 16px;
+    margin-left: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-Ul-Designer {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 16px;
+    margin-left: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+  .ikon {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikon:hover {
+    background-color: #2196F3;
+}
+ 
+.apka {
+    fill: #AFB1B8;
+}
+
+.apka:hover {
+    fill: #FFFFFF;
+}
+
+.czym-zajmujemy-się {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.container-Produkt-Designer {
+   display: flex;
+   position: absolute;
+width: 206px;
+height: 56px;
+left: 247px;
+top: 16px;
+}
+
+
+/* Nasi klienci */
+
+.container-Nasi-klienci {
+    width: 1600px;
+    height: 372px;
+    top: 2401px;    
+    fill: #03a9f4;
+}
+
+.Nasi-klienci {
+    position: absolute;
+width: 201px;
+height: 42px;
+left: 701px;
+top: 2350px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.klienci1 {
+    position: absolute;
+width: 170px;
+height: 92px;
+left: 215px;
+top: 2493px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.klienci2 {
+    position: absolute;
+width: 170px;
+height: 92px;
+left: 415px;
+top: 2493px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.klienci3 {
+    position: absolute;
+width: 170px;
+height: 92px;
+left: 615px;
+top: 2493px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.klienci4 {
+    position: absolute;
+width: 170px;
+height: 92px;
+left: 815px;
+top: 2493px;
+border: 1px solid  #AFB1B8;
+border-radius: 4px;
+}
+
+.klienci5 {
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 1015px;
+    top: 2493px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.klienci6 {
+    position: absolute;
+width: 170px;
+height: 92px;
+left: 1215px;
+top: 2493px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+fill: #03a9f4;
+}
+
+.icon-1 {
+    fill: #AFB1B8;
+}
+
+.icon-1:hover {
+    fill: #2196F3;
+}
+
+  
+ /* adres */
+
+.adres {
+    box-sizing: border-box;
+    position: absolute;
+width: 1600px;
+height: 252px;
+top: 2679px;
+background-color: #2F303A;
+
+}
+
+.lista {
+    list-style: none;
+}
+
+.logo1 {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 60px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */    
+    letter-spacing: 0.03em;    
+    color: #2196F3;
+}
+
+.accent1 {
+    color: #EEEEEE;
+}
+
+.dokładny-adres {
+    position: absolute;
+width: 246px;
+height: 21px;
+left: 215px;
+top: 111px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.dokładny-adres1 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 141px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.dokładny-adres2 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 171px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+} 
+
+.Dołącz-do-nas {
+    position: absolute;
+width: 113px;
+height: 16px;
+left: 547px;
+top: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.Dołącz {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 45px;
+    margin-left: 540px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ikon1 {
+    display: flex;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-top: 108px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ikon1:hover {
+    background-color: #2196F3;
+}
+
+.zapisz {
+    box-sizing: border-box;
+    position: absolute;
+width: 570px;
+height: 86px;
+left: 815px;
+top: 65px;
+
+}
+
+.zapisz-się {
+    position: absolute;
+    width: 207px;
+    height: 16px;
+    left: 0px;
+    top: -10px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;  
+    color: #FFFFFF;
+}
+
+.zapisz input {
+    width: 340px;
+    height: 37px;
+    margin-top: 40px;   
+    border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+ background-color: #2F303A;   
+    padding-left: 16px;
+    padding-top: 4px;
+}
+
+.zapisz button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+width: 200px;
+height: 48px;
+left: 370px;
+top: 37px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+.Zapisz-się {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+letter-spacing: 0.06em;
+
+}
+
+
+/* Zostaw swoje dane */
+
+
+.formularze {
+    box-sizing: border-box;
+    width: 448px;
+    height: 342px;
+    margin-left: 40px;
+    margin-top: 75px;
+}
+
+.zostaw-swoje-dane {
+    position: absolute;
+width: 448px;
+height: 23px;
+left: 40px;
+top: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.Imie {
+    position: absolute;
+width: 24px;
+height: 14px;
+margin-top: 0px;
+margin-left: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+letter-spacing: 0.01em;
+color: #757575;
+}
+
+.formularze-Imie {
+    display: flex;
+    width: 445px;
+    height: 60px;
+}
+
+.formularze-Telefon {
+    position: absolute;
+width: 446px;
+height: 35px;
+margin-left: 0px;
+margin-top: 14px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+
+.formularze-Telefon input {   
+    margin-top: -20px;
+}
+
+.formularze-Telefon svg {
+    fill: #2196F3;
+}
+
+
+.formularze-Telefon svg {
+    padding-left: 14px;
+    padding-top: 10px;
+    fill: #212121;
+}
+
+.formularze-Telefon:focus-within {
+border-color: #2196F3;
+}
+
+
+
+.modal input {
+    padding-left: 40px;
+    padding-top: -10px;
+float: right;
+width: 90%;
+border: none;
+}
+
+.modal input:focus {
+    outline: none;
+}
+
+.Komentarz {
+    position: absolute;
+width: 60px;
+height: 14px;
+margin-left: 40px;
+margin-top: 279px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+letter-spacing: 0.01em;
+color: #757575;
+}
+
+.formularze-Komentarz {
+    position: absolute;
+    width: 446px;
+    height: 135px;
+    margin-left: 0px;
+    margin-top: 14px;    
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}  
+
+.formularze-Komentarz:focus-within {
+    border-color: #2196F3;
+}
+
+.formularze-Komentarz textarea {
+    position: absolute;
+    width: 420px;
+    height: 110px;
+    left: 14px;
+    top: 12px;
+    resize: none;
+    border: none;
+}
+
+.modal textarea:focus {
+    outline: none;
+}
+
+.akceptuję {
+width: 16px;
+height: 15px;
+margin-top: 114px;
+margin-left: 16px;
+border: 2px solid #212121;
+border: 0.2px
+}
+
+.Oświadczam-iż-akceptuję {
+    position: absolute;
+    width: 397px;
+    height: 24px;
+    left: 83px;
+    top: 410px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */   
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.akceptuję input {
+    width: 16px;
+    height: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.Regulamin {
+    color: #2196F3;
+}
+
+.button-Wyślij {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 164px;
+top: 480px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.Wyślij {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+
+
+/* Portfolio WebStudio */
+
+
+
+
+.portfolio-webstudio {
+    border: 1px solid #ECECEC;
+    background-color: #FFFFFF;
+    position: absolute;
+width: 1600px;
+height: 76px;
+left: 0px;
+top: 0px;
+}
+
+.logo11 {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+
+.agencia1 {
+    position: absolute;
+width: 53px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.portfolio1 {
+    position: absolute;
+width: 58px;
+height: 16px;
+left: 552px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.kontakt1 {
+    position: absolute;
+width: 58px;
+height: 16px;
+left: 656px;
+top: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.list1 {
+    list-style: none;
+}
+
+.poshta1 {
+    display: flex;
+    width: 161px;
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 1064px;
+    gap: 10px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em
+}
+
+.telefon1 {
+    display: flex;
+    width: 130px;
+    height: 16px;
+    margin-top: -18px;
+    margin-left: 1255px;
+    gap: 10px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.mail1 {
+    fill: #757575;
+}
+
+.mail1:hover {
+    fill: #2196F3;
+}
+
+
+/* liste-portfolio */
+
+
+.portfolio-gluwna {
+    width: 1600px;
+    height: 1548px;
+
+}
+
+.wszystkie {
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 510px;
+    top: 174px;    
+    background: #F5F4FA;
+    /* shadow-middle */    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.wszystkie:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.list-portfolio {
+    list-style: none;
+}
+
+.strony {
+    position: absolute;
+    width: 93px;
+    height: 38px;
+    left: 639px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.strony:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.aplikacje {
+    position: absolute;
+    width: 114px;
+    height: 38px;
+    left: 740px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.aplikacje:hover  {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.dizajn {
+    position: absolute;
+    width: 91px;
+    height: 38px;
+    left: 862px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.dizajn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF; 
+}
+
+.marketing {
+    position: absolute;
+    width: 121px;
+    height: 38px;
+    left: 961px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.marketing:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;   
+}
+
+.conteiner-conteiner {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1178px;
+    height: 1280px;
+    margin-top: 262px;
+    margin-left: 215px;
+}
+
+/* conteiner-box */
+
+.conteiner-box {
+width: 370px;
+height: 404px;
+    background: #FFFFFF;
+    border: 1px double #EEEEEE;
+position: relative;
+z-index: 1;
+}
+
+
+
+.overlay {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    background-color: rgba(33, 150, 243, 0.9);      
+    transform: translate(0%, 100%);
+    transition: transform 250ms ease;
+}
+
+.overlay > .conteiner-text {
+    position: absolute;
+    width: 301px;
+    height: 196px;
+    left: 24px;
+    top: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+
+
+.box1 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.1.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+    
+}
+
+.box1:hover .overlay {
+    transform: translateX(0);
+}
+
+
+
+.box2 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.2.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box2:hover .overlay {
+    transform: translate(0);
+}
+
+
+
+.box3 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.3.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box3:hover .overlay {
+    transform: translate(0);
+}
+
+.box4 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.4.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box4:hover .overlay {
+    transform: translate(0);
+}
+
+.box5 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.5.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box5:hover .overlay {
+    transform: translate(0);
+}
+
+.box6 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.6.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box6:hover .overlay {
+    transform: translate(0);
+}
+
+.box7 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.7.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box7:hover .overlay {
+    transform: translate(0);
+}
+
+.box8 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.8.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+}
+
+.box8:hover .overlay {
+    transform: translate(0);
+}
+
+.box9 {  
+    position: relative;
+    width: 370px;
+    height: 294px;
+    background-image: url(../img/img1.9.jpg);
+    overflow: hidden;
+    background-color: #2196F3 90%;
+    overflow: hidden;
+    
+}
+
+.box9:hover .overlay {
+    transform: translate(0);
+}
+
+.zdięczie-box {
+    z-index: 2;
+}
+
+.opis-box {
+    list-style: none;
+}
+
+.Technocrack{
+    position: absolute;
+width: 322px;
+height: 36px;
+left: 249px;
+top: 560px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+
+.Strona-internetowa1 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 249px;
+    top: 600px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Grafika {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 650px;
+    top: 560px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Dizajn1 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 650px;
+    top: 600px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Restauracja-Seafood {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1050px;
+    top: 560px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Aplikacja1 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1050px;
+    top: 600px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Projekt-Prime {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 254px;
+    top: 995px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Marketing1 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 254px;
+    top: 1035px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Projekt-Boxes {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 654px;
+    top: 995px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Aplikacja2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 654px;
+    top: 1035px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Inspiration {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1054px;
+    top: 995px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Strona-internetowa2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1054px;
+    top: 1035px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;   
+}
+
+.Magazyn {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 254px;
+    top: 1430px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Dizajn2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 254px;
+    top: 1470px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Projekt-LAB {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 654px;
+    top: 1430px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Marketing2 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 654px;
+    top: 1470px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+.Growing-Business {
+    position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 1054px;
+    top: 1430px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    
+    color: #212121;
+}
+
+.Aplikacja3 {
+    position: absolute;
+    width: 322px;
+    height: 30px;
+    left: 1054px;
+    top: 1470px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+
+ 
+/* adres portfolio*/
+
+.adres1-1 {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+
+.lista1-1 {
+    list-style: none;
+}
+
+.logo1-1 {
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 60px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.dokładny-adres-portfolio0-0 {
+    position: absolute;
+width: 247px;
+height: 21px;
+left: 215px;
+top: 111px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.dokładny-adres1-portfolio1-1 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 141px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.dokładny-adres2-portfolio2-1 {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 171px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.Dołącz-do-nas-1 {
+    position: absolute;
+    width: 113px;
+    height: 16px;
+    left: 540px;
+    top: 55px;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+.Dołącz-1 {
+    display: flex;
+    width: 206px;
+    height: 56px;
+    margin-top: 108px;
+    margin-left: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;     
+}
+
+.ikon2:hover {
+    background-color: #2196F3;
+}
+
+.ikon2 {
+    display: flex;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+.zapisz1 {
+    box-sizing: border-box;
+    width: 570px;
+    height: 86px;
+    margin-top: -106px;
+    margin-left: 815px;
+    
+}
+
+.zapisz-się1 {
+    position: absolute;
+width: 207px;
+height: 16px;
+left: 815px;
+top: 57px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.zapisz1 input {
+    position: absolute;
+width: 340px;
+height: 45px;
+left: 815px;
+top: 110px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: #2F303A;
+padding-left: 16px;
+padding-top: 5;
+}
+
+.zapisz1 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 1185px;
+top: 108px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFFFF;
+}
+
+
+
+
+/* okna modalne */
+
+
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    box-sizing: border-box;
+    position: absolute;
+    top: 221px;
+    left: 536px;
+    transform: translate(-50% -50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: #FFFFFF;
+}
+
+.close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
