@@ -795,6 +795,7 @@ border-radius: 4px;
 
 .formularze-Telefon:focus-within {
 border-color: #2196F3;
+fill: #2196F3;
 }
 
 
@@ -835,7 +836,15 @@ color: #757575;
     margin-top: 14px;    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-}  
+} 
+
+.formularze-Imie svg {
+    fill: #212121;
+}
+
+.input:focus ~  svg  {
+    fill : #2196F3;
+}
 
 .formularze-Komentarz:focus-within {
     border-color: #2196F3;
@@ -856,12 +865,12 @@ color: #757575;
 }
 
 .akceptuję {
-width: 16px;
-height: 15px;
-margin-top: 114px;
-margin-left: 16px;
-border: 2px solid #212121;
-border: 0.2px
+    width: 16px;
+    height: 15px;
+    margin-top: 114px;
+    margin-left: 16px;
+    border: 2px solid #212121;
+    border: 0.2px
 }
 
 .Oświadczam-iż-akceptuję {
@@ -878,13 +887,6 @@ border: 0.2px
     /* identical to box height, or 171% */   
     letter-spacing: 0.03em;
     color: #757575;
-}
-
-.akceptuję input {
-    width: 16px;
-    height: 15px;
-    margin-left: 0px;
-    margin-top: 0px;
 }
 
 .Regulamin {
@@ -1863,6 +1865,18 @@ color: #FFFFFF;
     width: 528px;
     min-height: 581px;
     background-color: #FFFFFF;
+    animation: animate125 3000ms forwards 1000ms; 
+}
+
+@keyframes animate125 {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(1.25);
+    }
+
 }
 
 .close-btn {
