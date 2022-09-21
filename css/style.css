@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Raleway;
+    font-family: Roboto, Raleway;  
 }
 
 
@@ -16,15 +16,6 @@ body {
 
 .list {
     list-style: none;
-}
-
-.social-link .link:hover,
-.social-link .link:focus {
-    color: orange;
-}
-
-.social-link .link:active {
-    color: red;
 }
 
 .logo {
@@ -73,6 +64,7 @@ top: 32px;
 position: relative;
 text-decoration: none;
 transition: color 250ms linear;
+color: black;
 }
 
 .list-link:hover {
@@ -125,8 +117,16 @@ gap: 10px;
     fill: gray;
 }
 
-.mail:hover  {
+.mail:hover {
     fill: #2196F3;
+}
+
+.list-link1 {
+color: #757575;
+}
+
+.list-link1:hover  {
+    color: #2196F3;
 }
 
 .telefon {
@@ -145,16 +145,9 @@ gap: 10px;
 }
 
 .telefon:hover {
-    fill: #2196F3; 
-}
-
-.list-link1 {
-    color: #757575;
+    fill: #2196F3;
 }
  
-.list-link1:hover {
-    color: #2196F3;
-}
 
 /* Zamów usługe */
 
@@ -716,210 +709,6 @@ line-height: 30px;
 /* identical to box height, or 188% */
 letter-spacing: 0.06em;
 
-}
-
-
-/* Zostaw swoje dane */
-
-
-.formularze {
-    box-sizing: border-box;
-    width: 448px;
-    height: 342px;
-    margin-left: 40px;
-    margin-top: 75px;
-}
-
-.zostaw-swoje-dane {
-    position: absolute;
-width: 448px;
-height: 23px;
-left: 40px;
-top: 20px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-}
-
-.Imie {
-    position: absolute;
-width: 24px;
-height: 14px;
-margin-top: 0px;
-margin-left: 0px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-letter-spacing: 0.01em;
-color: #757575;
-}
-
-.formularze-Imie {
-    display: flex;
-    width: 445px;
-    height: 60px;
-}
-
-.formularze-Telefon {
-    position: absolute;
-width: 446px;
-height: 35px;
-margin-left: 0px;
-margin-top: 14px;
-border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-}
-
-.formularze-Telefon input {   
-    margin-top: -20px;
-}
-
-.formularze-Telefon svg {
-    fill: #2196F3;
-}
-
-
-.formularze-Telefon svg {
-    padding-left: 14px;
-    padding-top: 10px;
-    fill: #212121;
-}
-
-.formularze-Telefon:focus-within {
-border-color: #2196F3;
-fill: #2196F3;
-}
-
-
-
-.modal input {
-    padding-left: 40px;
-    padding-top: -10px;
-float: right;
-width: 90%;
-border: none;
-}
-
-.modal input:focus {
-    outline: none;
-}
-
-.Komentarz {
-    position: absolute;
-width: 60px;
-height: 14px;
-margin-left: 40px;
-margin-top: 279px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-/* identical to box height */
-letter-spacing: 0.01em;
-color: #757575;
-}
-
-.formularze-Komentarz {
-    position: absolute;
-    width: 446px;
-    height: 135px;
-    margin-left: 0px;
-    margin-top: 14px;    
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-} 
-
-.formularze-Imie svg {
-    fill: #212121;
-}
-
-.input:focus ~  svg  {
-    fill : #2196F3;
-}
-
-.formularze-Komentarz:focus-within {
-    border-color: #2196F3;
-}
-
-.formularze-Komentarz textarea {
-    position: absolute;
-    width: 420px;
-    height: 110px;
-    left: 14px;
-    top: 12px;
-    resize: none;
-    border: none;
-}
-
-.modal textarea:focus {
-    outline: none;
-}
-
-.akceptuję {
-    width: 16px;
-    height: 15px;
-    margin-top: 114px;
-    margin-left: 16px;
-    border: 2px solid #212121;
-    border: 0.2px
-}
-
-.Oświadczam-iż-akceptuję {
-    position: absolute;
-    width: 397px;
-    height: 24px;
-    left: 83px;
-    top: 410px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* identical to box height, or 171% */   
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-
-.Regulamin {
-    color: #2196F3;
-}
-
-.button-Wyślij {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    position: absolute;
-width: 200px;
-height: 50px;
-left: 164px;
-top: 480px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-}
-
-.Wyślij {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
 }
 
 
@@ -1896,3 +1685,227 @@ color: #FFFFFF;
     visibility: hidden;
     pointer-events: none;
 }
+
+.formularze {
+    box-sizing: border-box;
+    width: 448px;
+    height: 342px;
+    margin-left: 40px;
+    margin-top: 75px;
+}
+
+.zostaw-swoje-dane {
+    position: absolute;
+    width: 448px;
+    height: 23px;
+    left: 40px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.Imie {
+    position: absolute;
+    width: 24px;
+    height: 14px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.formularze-Imie {
+    display: flex;
+    width: 445px;
+    height: 60px;
+}
+
+.formularze-Telefon {
+    position: absolute;
+    width: 446px;
+    height: 35px;
+    margin-left: 0px;
+    margin-top: 14px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.formularze-Telefon input {
+    margin-top: -20px;
+}
+
+.formularze-Telefon svg {
+    fill: #2196F3;
+}
+
+
+.formularze-Telefon svg {
+    padding-left: 14px;
+    padding-top: 10px;
+    fill: #212121;
+}
+
+.formularze-Telefon:focus-within {
+    border-color: #2196F3;
+    fill: #2196F3;
+}
+
+
+
+.modal input {
+    padding-left: 40px;
+    padding-top: -10px;
+    float: right;
+    width: 90%;
+    border: none;
+}
+
+.modal input:focus {
+    outline: none;
+}
+
+.Komentarz {
+    position: absolute;
+    width: 60px;
+    height: 14px;
+    margin-left: 40px;
+    margin-top: 279px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.formularze-Komentarz {
+    position: absolute;
+    width: 446px;
+    height: 135px;
+    margin-left: 0px;
+    margin-top: 14px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+.formularze-Imie svg {
+    fill: #212121;
+}
+
+.input:focus~svg {
+    fill: #2196F3;
+}
+
+.formularze-Komentarz:focus-within {
+    border-color: #2196F3;
+}
+
+.formularze-Komentarz textarea {
+    position: absolute;
+    width: 420px;
+    height: 110px;
+    left: 14px;
+    top: 12px;
+    resize: none;
+    border: none;
+}
+
+.form-field {
+display: flex;
+   width: 448px;
+   height: 24px;
+   margin-top: 108px;
+}
+
+.form-field input {
+    appearance: none;
+}
+
+.form-field__text::before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    left: -25px;
+    top: 2px;
+    border-radius: 2px;
+}
+
+.form-field__policy:checked + .form-field__text::before {
+    background-color: #2196F3;
+    background-image: url(../img/Vector.svg);
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.form-field__text {
+    position: absolute;
+        width: 397px;
+        height: 24px;
+        left: 80px;
+        top: 423px;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 171% */        
+            letter-spacing: 0.03em;        
+            color: #757575;
+}
+
+.form-field__policy {
+position: absolute;
+    width: 16px;
+    height: 15px;
+    left: 54px;
+    top: px;
+}
+
+.color__blue {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.button-Wyślij {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 164px;
+    top: 480px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.Wyślij {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+
