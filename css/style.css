@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Web Studio */
+
+.nav {
+    width: 1600px;
+    height: 80px;
+}
+
+.nav_contents {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+span {
+    color: #2196F3;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    margin-left: 453px;
+    padding: 32px;
+    gap: 46px;
+    list-style: none;
+}
+
+.nav_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav_link:hover {
+    color: #2196F3;
+}
+
+.link_link_nav {
+    display: flex;
+    width: 400px;
+    height: 30px;
+    margin-left: 1052px;
+    margin-top: -50px;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+    cursor: all-scroll;
+}
+
+.link_link {
+    margin-left: 10px;
+    color: #757575;
+    cursor: cell;
+}
+
+.link_link:hover {
+    color: #2196F3;
+}
+
+/* Order the service */
+
+.Order_the_service {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+    background-image: url(../images/car_design.jpg);
+}
+
+.Order_the_service_contents {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    margin-left: 452px;
+    margin-top: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+
+.Order_the_service_button {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 350px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* What we do */
+
+.post {
+    max-width: 1200px; 
+    min-height: 731px; 
+    margin-left: 215px;
+    margin-top: 94px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1190px;
+    min-height: 251px;
+    gap: 30px;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.post_item h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.post_item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.icon_item {
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.container_icon_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.post-heading {
+    margin-top: 94px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.post-images {
+    gap: 40px;
+    margin-top: 70px;
+}
+
+/* Our team*/
+
+.container_Our_team {
+    width: 1600px;
+    height: 708px;
+    margin-top: 50px;
+    background: #F5F4FA;
+    border: 1px dotted #F5F4FA;
+}
+
+.container_Our_team_heading {
+    position: absolute;
+    width: 220px;
+    height: 42px;
+    margin-left: 695px;
+    margin-top: 94px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.container_with_employees {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1200px;
+    height: 368px;
+    margin-top: 186px;
+    margin-left: 215px;
+    gap: 39px;
+}
+
+.employee {
+    width: 270px;
+    height: 428px;
+    background: #FFFFFF;
+    text-align: center;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.employee h4 {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.employee p {
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.employee_icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 34px;
+}
+
+.social_media_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    margin-top: 16px;
+    border-radius: 50%;
+}
+
+.social_media_icon:hover {
+    background-color: #2196F3;
+}
+
+.icon:hover {
+    fill: #FFFFFF;
+}
+
+/* Our customers */
+
+.container_Our_customers {
+    max-width: 1600px;
+    min-height: 372px;
+    border: 1px double white;
+}
+
+.container_Our_customers_heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 94px;
+    margin-left: 701px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.container_Our_customers_icons {
+    display: flex;
+    gap: 35px;
+    margin-left: 215px;
+    margin-top: 50px;
+}
+
+.container_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.container_icons:hover {
+color: #2196F3;
+}
+
+
+/* Web Studio adress */
+
+.container_adress {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    background: #2F303A;  
+}
+
+.Web_Studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    margin-top: 60px;
+    margin-left: 215px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+
+.Web_Studio_link {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 177px;
+    gap: 9px;
+    list-style: none;
+}
+
+.social-links_link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.mail  {
+    color: #757575;
+}
+
+.join_us_heading {
+    position: absolute;
+    margin-left: 531px;
+    margin-top: -38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.join_us {
+    display: flex;
+    gap: 10px;
+    margin-top: -85px;
+    margin-left: 531px;
+    width: 206px;
+    height: 46px;
+}
+
+.join_us_icon {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.join_us_icon:hover {
+    background-color: #2196F3;
+}
+
+   
+
+/* Portfolio */
+
+
+
+
+.page_Portfolio {
+    width: 1600px;
+    height: 1880px;
+    margin: 0;
+}
+
+/* Portfolio buttons*/
+
+.Portfolio {
+    box-sizing: border-box;
+    width: 1600px;
+    height: 1548px;
+    border: 2px dashed dimgray;
+    border: 1px solid #ECECEC;
+}
+
+.Portfolio_buttons {
+    display: block;
+    margin-left: 510px;
+    margin-top: 94px;
+    gap: 8px;
+
+}
+
+.container_buttons {
+    background: #F5F4FA;
+    border-radius: 4px;
+    position: absolute;
+    width: 121px;
+    height: 38px;
+}
+
+.buttons {
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 121px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121; 
+    border: 1px double #F5F4FA;
+}
+
+.Portfolio button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.Portfolio_container_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1200px;
+    height: 1250px;
+    margin-left: 215px;
+    margin-top: 50px;
+}
+
+.Portfolio_images {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.Portfolio_images:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.Portfolio_images h4 {
+    margin-top: 12px;
+    margin-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.Portfolio_images p {
+    margin-top: 4px;
+    margin-left: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* Portfolio adress */
+
+.container_adress_Portfolio {
+    margin-top: 0;
+    width: 1600px;
+    height: 252px;
+    background-color: #2F303A;
+    border: 1px solid #2F303A;
+}
+
+.Order_the_service button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
