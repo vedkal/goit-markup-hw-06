@@ -10,7 +10,7 @@
     height: 80px;
 }
 
-.nav_contents {
+.nav_logo {
     position: absolute;
     width: 145px;
     height: 31px;
@@ -29,6 +29,15 @@ span {
     color: #2196F3;
 }
 
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -37,22 +46,23 @@ span {
     margin-left: 453px;
     padding: 32px;
     gap: 46px;
-    list-style: none;
 }
 
-.active::after {    
+.active_line::after {
     content: "";
-    display: none;  
-    height: 4px;
+    display: block;
+    position: absolute;
     margin-top: 26px;
+    width: 53px;
+    height: 4px;
+    background: #2196F3;
     border-radius: 2px;
+}
+
+.active:hover {    
     background: #2196F3;
     transition-duration: 3000ms;
     transition-timing-function: linear;
-}
-
-.active:hover::after {
-    display: block;
 }
 
 .nav_link {
@@ -74,38 +84,22 @@ span {
 
 .link_link_nav {
     display: flex;
-    width: 400px;
-    height: 30px;
+    justify-content: flex-start;
     margin-left: 1052px;
-    margin-top: -35px;
+    margin-top: -30px;
     gap: 30px;
 }
 
-a {
-    text-decoration: none;
-    color: #212121;
-    cursor: all-scroll;
-}
-
 .link_link {
-    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+    height: 16px;
     color: #757575;
-    cursor: cell;
 }
 
 .link_link:hover {
     color: #2196F3;
-    transition: 350ms linear;
-}
-
-.link_link_icon {
-    width: 16px;
-    height: 16px;
-    fill: #757575;
-}
-
-.link_link_icon:hover {
-    fill: #2196F3;
     transition: 350ms linear;
 }
 
@@ -118,7 +112,7 @@ a {
     background-image: url(../images/car_design.jpg);
 }
 
-.Order_the_service_contents {
+.Order_the_service_heading {
     position: absolute;
     width: 696px;
     height: 120px;
@@ -142,8 +136,15 @@ a {
     margin-left: 700px;
     margin-top: 350px;
     background: #2196F3;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 /* What we do */
@@ -155,18 +156,21 @@ a {
     margin-top: 94px;
 }
 
-.item {
+.post_item {
     display: flex;
-    flex-wrap: nowrap;
-    max-width: 1190px;
-    min-height: 251px;
-    gap: 30px;
-    margin-top: 0;
-    padding: 0;
+    width: 1190px;
+    height: 251px;
+    border: 5px;
+    margin: auto;
+    margin-left: -30px;
     list-style: none;
 }
 
-.post_item h5 {
+.post_article {
+    margin: 20px;
+}
+
+.post_article h5 {
     font-family: 'Roboto';
     font-style: normal;
     margin-top: 30px;
@@ -178,10 +182,13 @@ a {
     color: #212121;
 }
 
-.post_item p {
+.post_article p {
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    margin-top: 10px;
     font-family: 'Roboto';
     font-style: normal;
-    margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -196,7 +203,7 @@ a {
     border-radius: 4px;
 }
 
-.container_icon_item {
+.post_icon_item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +213,7 @@ a {
     border-radius: 4px;
 }
 
-.container_post-heading {
+.post-heading {
     margin-top: 94px;
     font-family: 'Roboto';
     font-style: normal;
@@ -218,11 +225,12 @@ a {
     color: #212121;
 }
 
-.container_post-images {
+.post-images {
     display: flex;
     margin-top: 50px;
     gap: 40px;
     margin-top: 70px;
+    list-style: none;
 }
 
 .post_description P {
@@ -246,7 +254,7 @@ a {
 
 /* Our team*/
 
-.container_Our_team {
+.Our_team {
     width: 1600px;
     height: 708px;
     margin-top: 50px;
@@ -254,7 +262,7 @@ a {
     border: 1px dotted #F5F4FA;
 }
 
-.container_Our_team_heading {
+.Our_team_heading {
     position: absolute;
     width: 220px;
     height: 42px;
@@ -270,11 +278,10 @@ a {
     color: #212121;
 }
 
-.container_with_employees {
+.Our_team_employees {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     width: 1200px;
+    margin: 0 auto;
     height: 368px;
     margin-top: 186px;
     margin-left: 215px;
@@ -286,6 +293,7 @@ a {
     height: 428px;
     background: #FFFFFF;
     text-align: center;
+    list-style: none;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -337,13 +345,13 @@ a {
 
 /* Our customers */
 
-.container_Our_customers {
+.Our_customers {
     max-width: 1600px;
     min-height: 372px;
     border: 1px double white;
 }
 
-.container_Our_customers_heading {
+.Our_customers_heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -355,14 +363,14 @@ a {
     color: #212121;
 }
 
-.container_Our_customers_icons {
+.Our_customers_icons {
     display: flex;
     gap: 35px;
     margin-left: 215px;
     margin-top: 50px;
 }
 
-.container_icons {
+.customers_icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -373,7 +381,7 @@ a {
     fill: #AFB1B8;
 }
 
-.container_icons:hover {
+.customers_icons:hover {
     fill: #2196F3;
     border: 1px solid #2196F3;
     transition: 500ms linear;
@@ -381,7 +389,7 @@ a {
 
 /* Web Studio adress */
 
-.container_adress {
+.adress {
     position: absolute;
     width: 1600px;
     height: 252px;
@@ -546,14 +554,6 @@ a {
 
 }
 
-.container_buttons {
-    background: #F5F4FA;
-    border-radius: 4px;
-    position: absolute;
-    width: 121px;
-    height: 38px;
-}
-
 .buttons {
     font-family: 'Roboto';
     font-style: normal;
@@ -574,7 +574,7 @@ a {
     transition: 500ms linear;
 }
 
-.Portfolio_container_images {
+.portfolio_general_page {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -665,17 +665,12 @@ a {
 
 /* Portfolio adress */
 
-.container_adress_Portfolio {
+.adress_Portfolio {
     margin-top: 0;
     width: 1600px;
     height: 252px;
     background-color: #2F303A;
     border: 1px solid #2F303A;
-}
-
-.Order_the_service button {
-    background-color: #2196F3;
-    color: #FFFFFF;
 }
   
 
@@ -774,7 +769,7 @@ a {
     color: #757575;
 }
 
-.connection-field {
+.modal_input {
     display: flex;
     width: 448px;
     height: 40px;
@@ -790,12 +785,12 @@ a {
     margin-left: 13px;
 }
 
-.connection-field:focus {
+.modal_input:focus {
     outline: none;
     border-color: #2196f3;
 }
 
-.connection-field:focus + .modal_icon {
+.modal_input:focus + .modal_icon {
     fill: #2196f3;
 }
 
@@ -846,8 +841,8 @@ textarea:focus {
 
 .modal_checkbox_input:checked + .modal_regulamin::before {
     background-color: #2196F3;
-    border: none;
-    background-image: url(../images/svg/icon.svg);
+    border: 1px solid #2196F3;
+    background-image: url(../images/SVG/icon.svg);
     background-repeat: no-repeat;
 }
 
