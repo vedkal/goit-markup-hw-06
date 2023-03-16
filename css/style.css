@@ -5,7 +5,7 @@
 
 /* Web Studio */
 
-.nav {
+.conteiner__nav {
     width: 1600px;
     height: 80px;
 }
@@ -77,42 +77,47 @@ li {
     color: #212121;
 }
 
-.nav_link:hover {
+.nav_link:hover,
+.nav_link:focus {
     color: #2196F3;
     transition: 350ms linear;   
 }
 
 .link_link_nav {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 1052px;
-    margin-top: -30px;
-    gap: 30px;
+    position: absolute;
+    left: 1052px;
+    top: 34px;
+    bottom: 30px;
 }
 
 .link_link {
     display: flex;
-    justify-content: space-around;
-    width: 170px;
-    height: 16px;
+    gap: 10px;
+    width: 178px;
     color: #757575;
 }
 
-.link_link:hover {
+.link_link_icon {
+    margin-top: 2px;    
+}
+
+.link_link:hover,
+.link_link:focus {
     color: #2196F3;
     transition: 350ms linear;
 }
 
 /* Order the service */
 
-.Order_the_service {
+.section__order_the_service {
     width: 1600px;
     height: 600px;
     background-color: #2F303A;
     background-image: url(../images/car_design.jpg);
 }
 
-.Order_the_service_heading {
+.order_the_service_heading {
     position: absolute;
     width: 696px;
     height: 120px;
@@ -129,7 +134,7 @@ li {
     color: #FFFFFF;   
 }
 
-.Order_the_service_button {
+.order_the_service_button {
     position: absolute;
     width: 200px;
     height: 50px;
@@ -149,7 +154,7 @@ li {
 
 /* What we do */
 
-.post {
+.section__post {
     max-width: 1200px; 
     min-height: 731px; 
     margin-left: 215px;
@@ -254,7 +259,7 @@ li {
 
 /* Our team*/
 
-.Our_team {
+.section__our_team {
     width: 1600px;
     height: 708px;
     margin-top: 50px;
@@ -262,7 +267,7 @@ li {
     border: 1px dotted #F5F4FA;
 }
 
-.Our_team_heading {
+.our_team_heading {
     position: absolute;
     width: 220px;
     height: 42px;
@@ -278,7 +283,7 @@ li {
     color: #212121;
 }
 
-.Our_team_employees {
+.our_team_employees {
     display: flex;
     width: 1200px;
     margin: 0 auto;
@@ -314,6 +319,7 @@ li {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    padding: 10px;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
@@ -332,26 +338,27 @@ li {
     align-items: center;
     width: 44px;
     height: 44px;
-    margin-top: 16px;
     border-radius: 50%;
     fill: #afb1b8;
 }
 
-.social_media_icon:hover {
+.social_media_icon:hover,
+.social_media_icon:focus {
     background-color: #2196F3;
     fill: #FFFFFF;
+    color: #FFFFFF;
     transition: 500ms linear;
 }
 
 /* Our customers */
 
-.Our_customers {
+.section__our_customers {
     max-width: 1600px;
     min-height: 372px;
     border: 1px double white;
 }
 
-.Our_customers_heading {
+.our_customers_heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -363,7 +370,7 @@ li {
     color: #212121;
 }
 
-.Our_customers_icons {
+.our_customers_icons {
     display: flex;
     gap: 35px;
     margin-left: 215px;
@@ -381,7 +388,8 @@ li {
     fill: #AFB1B8;
 }
 
-.customers_icons:hover {
+.customers_icons:hover,
+.customers_icons:focus {
     fill: #2196F3;
     border: 1px solid #2196F3;
     transition: 500ms linear;
@@ -389,7 +397,7 @@ li {
 
 /* Web Studio adress */
 
-.adress {
+.conteiner__adress {
     position: absolute;
     width: 1600px;
     height: 252px;
@@ -397,7 +405,7 @@ li {
     background: #2F303A;  
 }
 
-.Web_Studio {
+.web_studio {
     font-family: 'Raleway';
     font-style: normal;
     margin-top: 60px;
@@ -409,7 +417,7 @@ li {
     color: #FFFFFF;
 }
 
-.Web_Studio_link {
+.web_studio_link {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -458,7 +466,7 @@ li {
 .join_us_icon {
     display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -466,19 +474,20 @@ li {
     fill: #FFFFFF;
 }
 
-.join_us_icon:hover {
+.join_us_icon:hover,
+.join_us_icon:focus {
     background-color: #2196F3;
     transition: 500ms linear;   
 }
 
-.Sign_up {
+.sign_up {
     width: 580px;
     height: 86px;
     margin-top: -90px;
     margin-left: 815px;
 }
 
-.Sign_up_heading {
+.sign_up_heading {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -489,7 +498,7 @@ li {
     color: #FFFFFF;
 }
 
-.Sign_up_input {
+.sign_up_input {
     width: 358px;
     height: 50px;
     margin-top: 19px;
@@ -501,7 +510,7 @@ li {
     border-radius: 4px;
 }
 
- .Sign_up_button {
+ .sign_up_button {
     top: 10px;
     left: 42px;
     width: 200px;
@@ -516,21 +525,14 @@ li {
     border-radius: 4px;
     border: none;
     color: #FFFFFF;
- }
-
- .Sign_up_icon {
-    margin-left: 16px;
-    margin-bottom: -8px;
- }
-
-
+}
 
 
 
 /* Portfolio */
 
 
-.page_Portfolio {
+.container__portfolio {
     width: 1600px;
     height: 1880px;
     margin: 0;
@@ -538,7 +540,7 @@ li {
 
 /* Portfolio buttons*/
 
-.Portfolio {
+.section__portfolio {
     box-sizing: border-box;
     width: 1600px;
     height: 1548px;
@@ -546,7 +548,7 @@ li {
     border: 1px solid #ECECEC;
 }
 
-.Portfolio_buttons {
+.portfolio_buttons {
     display: block;
     margin-left: 510px;
     margin-top: 94px;
@@ -568,34 +570,34 @@ li {
     border: 1px double #F5F4FA;
 }
 
-.Portfolio button:hover {
+.buttons:hover,
+.buttons:focus {
     background-color: #2196F3;
     color: #FFFFFF;
     transition: 500ms linear;
 }
 
-.portfolio_general_page {
+.section__general_page {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     width: 1200px;
     height: 1250px;
+    gap: 30px;
     margin-left: 215px;
     margin-top: 50px;
 }
 
-.Portfolio_images {
+.portfolio_images {
     width: 370px;
     height: 404px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
-.Portfolio_images_box {
+.portfolio_images_box {
     position: relative;
     width: 370px;
     height: 294px;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 .overlay {
@@ -612,7 +614,7 @@ li {
     font-family: 'Roboto';
     width: 322px;
     height: 140px;
-    margin-top: 63px;
+    margin-top: 65px;
     margin-left: 24px;
     font-style: normal;
     font-weight: 400;
@@ -623,24 +625,24 @@ li {
 
 }
 
-.Portfolio_images_box:hover .overlay {
+.portfolio_images_box:hover .overlay {
     transform: translateY(-100%);
     overflow: hidden;
 }
 
-.Portfolio_images:hover  {
+.portfolio_images:hover  {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.Portfolio_our_work {
+.portfolio_our_work {
     background-color: #FFFFFF;
     width: 370px;
     height: 110px;
-    margin-top: 20px;
+    border: 1px solid #EEEEEE;
 }
 
-.Portfolio_images h4 {
-    margin-top: 12px;
+.portfolio_images h4 {
+    margin-top: 20px;
     margin-left: 24px;
     font-family: 'Roboto';
     font-style: normal;
@@ -651,7 +653,7 @@ li {
     color: #212121;
 }
 
-.Portfolio_our_work p {
+.portfolio_our_work p {
     margin-top: 4px;
     margin-left: 24px;
     font-family: 'Roboto';
@@ -665,7 +667,7 @@ li {
 
 /* Portfolio adress */
 
-.adress_Portfolio {
+.container__adress_portfolio {
     margin-top: 0;
     width: 1600px;
     height: 252px;
@@ -688,7 +690,7 @@ li {
     background: rgba(0, 0, 0, 0.2);
 }
 
-.modal_window {
+.conteiner__modal_window {
     box-sizing: border-box;
     margin-top: 221px;
     margin-left: 536px;
@@ -858,6 +860,7 @@ textarea:focus {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
     border: none;
     font-family: 'Roboto';
     font-style: normal;
