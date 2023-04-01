@@ -722,7 +722,15 @@ position: absolute;
     color: #FFFFFF;
 }
 
-.sign_up_button-portfolio {
+.portfolio__sign_up {
+    position: absolute;
+        width: 570px;
+        height: 86px;
+        left: 815px;
+        top: 1700px;
+}
+
+.portfolio__sign_up_button {
     position: absolute;
     width: 200px;
     height: 50px;
@@ -734,7 +742,7 @@ position: absolute;
     border: none;
 }
 
-.sign_up_button-portfolio p {
+.portfolio__sign_up_button p {
     position: absolute;
     width: 85px;
     height: 30px;
