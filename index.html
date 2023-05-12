@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index.html</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,39 +19,39 @@
 
 <body>
     <!--Web Studio-->
-    <header class="conteiner__nav">
-        <h2 class="nav_logo"><a class="link" href=""><span>Web</span>Studio</a></h2>
-        <nav class="nav__links">
-            <ul class="nav__social-links">
-                <li class="active_line"><a class="nav_link">Agencia</a></li>
-                <li class="active"><a class="nav_link" href="portfolio.html">Portfolio</a></li>
-                <li class="active"><a class="nav_link" href="">Kontakt</a></li>
+    <header class="section__nav">
+            <h2 class="nav_logo"><a class="link" href=""><span>Web</span>Studio</a></h2>
+            <nav class="nav__links">
+                <ul class="nav__social-links">
+                    <li class="active_line"><a class="nav_link">Agencia</a></li>
+                    <li class="active"><a class="nav_link" href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a class="nav_link" href="">Kontakt</a></li>
+                </ul>
+            </nav>
+            <ul class="link_link_nav">
+                <li>
+                    <a class="link_link" href="mailto:info@devstudio.com">
+                        <svg class="link_link_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="12"
+                            viewBox="0 0 43 32" fill="currentColor">
+                            <path
+                                d="M38.667 0H4C1.795 0 0 1.795 0 4v24c0 2.205 1.795 4 4 4h34.667c2.205 0 4-1.795 4-4V4c0-2.205-1.795-4-4-4zm0 2.667c.181 0 .355.037.512.104L21.334 18.238 3.489 2.771c.151-.065.327-.104.512-.104h34.667zm0 26.666H4A1.333 1.333 0 0 1 2.667 28V5.587l17.792 15.421c.233.203.539.327.875.327s.642-.124.876-.328l-.002.001L40 5.587V28c0 .736-.597 1.333-1.333 1.333z" />
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="link_link" href="tel:+48111111111">
+                        <svg class="link_link_icon" xmlns="http://www.w3.org/2000/svg" width="10" height="16"
+                            viewBox="0 0 20 32" fill="currentColor">
+                            <path
+                                d="M17 0H3C1.346 0 0 1.346 0 3v26c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3V3c0-1.654-1.346-3-3-3zM3 2h14a1 1 0 0 1 1 1v21H2V3a1 1 0 0 1 1-1zm14 28H3a1 1 0 0 1-1-1v-3h16v3a1 1 0 0 1-1 1z" />
+                        </svg>+48 111 111 111</a>
+                </li>
             </ul>
-        </nav>
-        <ul class="link_link_nav">
-            <li>
-                <a class="link_link" href="mailto:info@devstudio.com">
-                    <svg class="link_link_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="12"
-                        viewBox="0 0 43 32" fill="currentColor">
-                        <path
-                            d="M38.667 0H4C1.795 0 0 1.795 0 4v24c0 2.205 1.795 4 4 4h34.667c2.205 0 4-1.795 4-4V4c0-2.205-1.795-4-4-4zm0 2.667c.181 0 .355.037.512.104L21.334 18.238 3.489 2.771c.151-.065.327-.104.512-.104h34.667zm0 26.666H4A1.333 1.333 0 0 1 2.667 28V5.587l17.792 15.421c.233.203.539.327.875.327s.642-.124.876-.328l-.002.001L40 5.587V28c0 .736-.597 1.333-1.333 1.333z" />
-                    </svg>info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="link_link" href="tel:+48111111111">
-                    <svg class="link_link_icon" xmlns="http://www.w3.org/2000/svg" width="10" height="16"
-                        viewBox="0 0 20 32" fill="currentColor">
-                        <path
-                            d="M17 0H3C1.346 0 0 1.346 0 3v26c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3V3c0-1.654-1.346-3-3-3zM3 2h14a1 1 0 0 1 1 1v21H2V3a1 1 0 0 1 1-1zm14 28H3a1 1 0 0 1-1-1v-3h16v3a1 1 0 0 1-1 1z" />
-                    </svg>+48 111 111 111</a>
-            </li>
-        </ul>
     </header>
     <main>
         <!--Order the service-->
         <section class="section__order_the_service">
-            <h1 class="order_the_service_heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button class="order_the_service_button" data-modal-open>Zamów usługe</button>
+                <h1 class="order_the_service_heading">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <button class="order_the_service_button" data-modal-open>Zamów usługe</button>
         </section>
         <!--What we do-->
         <section class="section__lorem-ipsum"> 
@@ -418,7 +421,7 @@
                         </div>
                         <div class="modal__form">
                             <span class="modal__text">Komentarz</span>
-                            <textarea name="Komentarz" cols="30" rows="10" placeholder="Wprowadź tekst"></textarea>
+                            <textarea class="modal__enter-text" name="Komentarz" cols="30" rows="10" placeholder="Wprowadź tekst"></textarea>
                         </div>
                     </div>
                     <div class="">
