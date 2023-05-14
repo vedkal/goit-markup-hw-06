@@ -432,15 +432,6 @@ li {
     background: #2F303A;
 }
 
-.container__adress {
-    max-width: 1200px;
-    width: 100%;
-    height: 190px;
-    padding: 0 15px;
-    margin: 0 auto;
-    left: 215px;
-}
-
 .web_studio {
     position: relative;
     width: 145px;
